@@ -1,10 +1,56 @@
-body{
-	background: #4f4f4f;
-	border:1px solid #ccc;
-	widows: 600px;
-	height: 320px;
-}
-
-#bigblock{
-	
-}
+		#container{
+			
+			position: relative;
+			border: 1px solid red;
+			position:relative;
+			margin: 5px auto;
+			padding: 30px;
+			width: 737px;
+			height:331px;
+			background-color: #000000;
+			border: 5px solid grey;
+			border-radius:15px;
+		}
+		#img{
+			height:330px;
+			width: 732px;
+			position: absolute;
+		}
+		#left_holder{
+			height: 450px;
+			width: 100px;
+			position: absolute;
+			left: 8px;
+			top: 8px;
+		}
+		#right_holder{
+			height: 450px;
+			width: 100px;
+			right: 8px;
+			top: 8px;
+			position: absolute;
+		}
+		.left{
+			height: 50px;
+			width: 50px;
+			position: absolute;
+			top: 170px;
+			left: 40px;
+		}
+		.right{
+			height: 50px;
+			width: 50px;
+			position: absolute;
+			top: 170px;
+			right: 50px;
+		}
+		#con{
+			width: 815px;
+			height: 410px;
+			margin-top:108px;
+			background-size:cover;
+			border: 2px solid black;
+			border-radius:10px;
+			background-color: #ccc;
+			margin-left: 100px;
+		}

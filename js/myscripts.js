@@ -1,8 +1,19 @@
+var imagecount=1;
+	var total = 5;
 
-function sliderfix(){
-	var number = prompt("test");
-	var result = number*number*number;
-	document.write("test"+ result);
+function slide(x){
+	var Image = document.getElementById('img');
+	imagecount = imagecount+ x;
+	if (imagecount> total){imagecount =1;}
+	if (imagecount<1){imagecount=total;}
+	Image.src="img/images"+imagecount+".jpg";
 }
-ala();
+window.setInterval(function slideA(){
+	var Image = document.getElementById('img');
+	imagecount = imagecount+ 1;
+	if (imagecount> total){imagecount =1;}
+	if (imagecount<1) {imagecount=total;}
+	Image.src="img/images"+imagecount+".jpg";	
+},4000);
+
 
