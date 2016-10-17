@@ -54,3 +54,7 @@
 			background-color: #ccc;
 			margin-left: 100px;
 		}
+		body{
+			background: url(http://www.recommend.com/wp-content/uploads/2012/10/Kandy-SriLanka.jpg) no-repeat;
+			position: inherit;
+		}
